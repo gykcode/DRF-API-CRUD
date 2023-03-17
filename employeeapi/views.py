@@ -8,7 +8,7 @@ from employeeapi.serializers import DepartmentSerializer, EmployeeSerializer
 
 # Create your views here.
 
-# Data fetching from API Deparmnet/Employees db
+# --Data fetching from API Deparmnet/Employees db--
 
 @csrf_exempt
 def departmentAPI(request, id = 0):

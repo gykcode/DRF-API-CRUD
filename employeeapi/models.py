@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+# --Data Models--
 class Employees(models.Model):
     employeeID = models.AutoField(primary_key=True)
     employeeName = models.CharField(max_length=200)
